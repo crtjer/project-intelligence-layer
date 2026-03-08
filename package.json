@@ -1,0 +1,25 @@
+{
+  "name": "project-intelligence-layer",
+  "version": "0.1.0",
+  "description": "Project Intelligence Layer (PIL) — persistent, structured understanding of repositories",
+  "main": "dist/pil/index.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "pil-index": "tsx scripts/pil-index.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "ignore": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
